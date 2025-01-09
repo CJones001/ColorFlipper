@@ -16,11 +16,16 @@
     margin-left: 5px;;
 }
 
-.container{
+.container {
     text-transform: uppercase;
     justify-content: center;
     text-align: center;
+}
+
+.container h2{
     background-color: grey;
+    padding: 30px 5px 30px 5px;
+    border-radius: 10px;
 }
 
 .color{
@@ -28,7 +33,6 @@
 }
 
 .btn{
-    margin: 30px;
     text-transform: capitalize;
 }
 
