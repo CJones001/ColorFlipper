@@ -9,7 +9,7 @@ const color = document.querySelector(".color");
 // Generate a random number when number is clicked
 btn.addEventListener("click", function () {
     // Get random number between 0 - 3
-    const randomNumber = 2;
+    const randomNumber = getRandomNumber();
     console.log(randomNumber);
 
     // Change the backgroundColor style property to the randomNumber color
@@ -18,5 +18,6 @@ btn.addEventListener("click", function () {
 });
 
 function getRandomNumber(){
-    return Math.random() * colors.length;
+    // Round the random number down to a whole number
+    return Math.floor(Math.random() * colors.length);
 }
