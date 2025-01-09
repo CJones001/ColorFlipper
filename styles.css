@@ -1,14 +1,22 @@
 .nav-center{
-    text-align: center;
-    text-transform: capitalize;
+    /* text-align: center; */
+    text-transform: uppercase;
+    /* justify-content: center; */
+    display: inline-block;
+
 }
 
 .nav-links{
-    text-transform: capitalize;
+    /* text-transform: uppercase; */
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
 }
 
 .container{
-
+    text-transform: uppercase;
+    justify-content: center;
+    text-align: center;
 }
 
 .color{
@@ -16,7 +24,7 @@
 }
 
 .btn{
-
+    text-transform: capitalize;
 }
 
 .btn-hero{
