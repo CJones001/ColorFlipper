@@ -1,29 +1,34 @@
 .nav-center{
-    /* text-align: center; */
     text-transform: uppercase;
-    /* justify-content: center; */
-    display: inline-block;
-
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    box-shadow: 10 10 10 10;
 }
 
 .nav-links{
-    /* text-transform: uppercase; */
-    list-style-type: none;
     display: flex;
-    gap: 10px;
+    list-style-type: none;
+}
+
+.nav-links li{
+    margin-left: 5px;
+    margin-left: 5px;;
 }
 
 .container{
     text-transform: uppercase;
     justify-content: center;
     text-align: center;
+    background-color: grey;
 }
 
 .color{
-
+    color: cyan;
 }
 
 .btn{
+    margin: 30px;
     text-transform: capitalize;
 }
 
